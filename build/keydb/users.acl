@@ -1,0 +1,4 @@
+user default on nopass ~* &* +@all
+user laravel on #d54aaa8ec572e589648589582a553e103dfe4f462b754824931ced9807c9ee4a &* -@all
+
+

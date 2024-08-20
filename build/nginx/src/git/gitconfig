@@ -1,0 +1,5 @@
+[safe]
+	directory = /var/www/html/app
+[user]
+	email = michael.schoenwiese@gmail.com
+	name = Michael S

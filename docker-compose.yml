@@ -1,0 +1,19 @@
+services:
+  nginx:
+    build: 
+      context: build/nginx
+      dockerfile: Dockerfile
+    container_name: ${PREFIX}_www
+    ports:
+    - ${HTTP_PORT}:80
+    - ${VITE_PORT}:5173
+    networks:
+    - mmbrlib
+networks:
+  mmbrlib:
+    driver: bridge
+    name: ${PREFIX}_network
+   
+volumes:
+  www:
+    driver: local
