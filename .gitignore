@@ -1,2 +1,2 @@
 .env
-*deploy_key*
+build/nginx/git
