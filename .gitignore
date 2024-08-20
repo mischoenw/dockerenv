@@ -1,2 +1,3 @@
 .env
-build/nginx/git
+build/nginx/src/git/ro*
+build/nginx/src/git/rw*
