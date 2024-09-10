@@ -9,6 +9,9 @@ services:
     - ${VITE_PORT}:5173
     networks:
     - mmbrlib
+    volumes:
+    - www:/var/www/html/app 
+    - ./run/nginx/database.sqlite:/var/www/html/app/database/database.sqlite
 networks:
   mmbrlib:
     driver: bridge
