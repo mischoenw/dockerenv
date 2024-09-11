@@ -1,3 +1,4 @@
 .env
 build/nginx/src/git/ro*
 build/nginx/src/git/rw*
+build/**/*deploy*
