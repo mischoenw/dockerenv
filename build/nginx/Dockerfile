@@ -51,6 +51,7 @@ ADD src/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 ADD src/php.ini $PHP_INI_DIR/conf.d/php.ini
 ADD src/nginx/default.conf /etc/nginx/http.d/default.conf
 ADD src/nginx/nginx.conf /etc/nginx/nginx.conf
+ADD src/laravel/install.sh /usr/local/bin/
 #ADD src/laravel/vite.config.js $APPDIR/
 #COPY src/laravel/.env $APPDIR/.env
 
